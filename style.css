@@ -1,0 +1,113 @@
+    body {
+        color: rgb(83, 104, 122);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    html {
+        scroll-behavior: smooth;
+    }
+    
+    section {
+        display: block;
+        padding-top: 50px;
+    }
+    
+    #Brand {
+        display: block;
+        font-weight: 600;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #aaa;
+        font-size: 24px;
+    }
+    
+    span {
+        font-weight: 600;
+        color: rgb(128, 154, 221);
+    }
+    
+    .jumbotron {
+        background-color: rgb(209, 225, 231);
+    }
+    
+    .row-jumbo {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .background-header {
+        height: 400px;
+        border-radius: 50% 0 0 0;
+    }
+    
+    .btn-primer1 {
+        background-color: rgb(2, 64, 250);
+        margin: 8px;
+        cursor: pointer;
+        color: wheat;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+    }
+    
+    .btn-primer1:hover {
+        background-color: rgb(175, 190, 228);
+        color: wheat;
+        margin: 8px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+    }
+    
+    .btn-primer2 {
+        background-color: rgb(70, 75, 70);
+        margin: 8px;
+        cursor: pointer;
+        color: wheat;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+    }
+    
+    .btn-primer2:hover {
+        background-color: #aaaa;
+        color: wheat;
+        margin: 8px;
+    }
+    
+    h2::before,
+    h2::after {
+        background-color: rgb(128, 154, 221);
+        content: "";
+        display: inline-block;
+        height: 1px;
+        position: relative;
+        vertical-align: middle;
+        width: 30%;
+    }
+    
+    h2::before {
+        right: 0.5em;
+        margin-left: -50%;
+    }
+    
+    h2::after {
+        left: 0.5em;
+        margin-right: -50%;
+    }
+    
+    .Service-style {
+        margin-top: 15px;
+        background-color: #fafbfa;
+    }
+    
+    .danger1 {
+        background-color: rgb(185, 5, 44);
+    }
+    
+    .danger1:hover {
+        background-color: rgb(236, 169, 183);
+    }
+    
+    .about-style {
+        background: no-repeat;
+    }
